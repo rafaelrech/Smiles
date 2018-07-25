@@ -1,0 +1,53 @@
+body {
+    background: #fff;
+    font-family: verdana,arial,sans-serif;
+    font-size: 100%;
+    margin: 0;
+    min-width: 1000px;
+    position: relative;
+}
+.rountripTitle {
+	margin-top:18px;
+	width: 1000px;
+	background-color: #d9d9d9;
+	font-size: 16px;
+	font-weight: bold;
+	height: 22px;
+	vertical-align: middle;
+}
+.partialResult, .noResult {
+    margin-left: 20px;
+	font-size: 14px;
+	height: 16px;
+}
+
+.noResult {
+	color: red;
+}
+.flightsTitle {
+	/*width: 250px;
+	background-color: #d9FFd9;*/
+    margin-left: 20px;
+	font-size: 18px;
+	/*height: 30px;*/
+	color: green;
+	font-weight : bold;
+}
+.flightEntry, .flightEntry-DL , .flightEntry-CM , .special {
+    margin-left: 30px;
+	font-size: 16px;
+	color: maroon;
+}
+.flightEntry-DL {
+	color: orangered;
+}
+.flightEntry-CM {
+	color: royalBlue;
+	font-weight:bold;
+}
+.special {
+	font-size: 18px;
+	height: 30px;
+	color: royalBlue;
+	font-weight: bold;
+}
